@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import json, sys
 file = sys.stdin
-data = file.readlines()[0]
+data = next(file)
 obj  = json.loads(data)
 print(json.dumps(obj, indent=4))
