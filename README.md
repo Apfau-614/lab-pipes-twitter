@@ -2,7 +2,7 @@
 
 This lab will introduce you the Unix `|` (pronounced "pipe") operator.
 The `|` is similar in spirit to python generators:
-it allows us to write programs that us a constant $O(1)$ amount of memory instead of $O(n)$.
+it allows us to write programs that use a constant $O(1)$ amount of memory instead of $\Omega(n)$.
 Because pipes are efficient, they are commonly used in large scale data analysis pipelines (whence the name).
 
 In this lab, you will use the pipe to do basic analysis of a large twitter dataset.
