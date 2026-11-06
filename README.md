@@ -16,7 +16,7 @@ You will need a partner to complete this lab.
 Create a new github repo.
 Then put the contents of this lab into your new repo:
 ```
-$ git clone origin <your_url>
+$ git clone <your_url>
 $ cd <your_repo>
 $ git remote add upstream https://github.com/mikeizbicki/lab-pipes-twitter
 $ git pull upstream master
